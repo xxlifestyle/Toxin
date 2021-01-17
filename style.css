@@ -1,6 +1,9 @@
 * {
   border: 1.5px solid transparent;
 }
+a {
+  text-decoration: none;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -67,10 +70,12 @@ body {
 .background-img {
   background-image: url(/img/bg.jpg);
   width: 100%;
+  max-width: 100%;
   height: 961px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .form-place {
   position: relative;
